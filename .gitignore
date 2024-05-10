@@ -160,5 +160,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
-Oxford_Battery_Degradation_Dataset_1.mat
+Data/Battery_Degradation_Dataset.csv
+Data/Oxford_Battery_Degradation_Dataset_1.mat
