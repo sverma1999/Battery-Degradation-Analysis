@@ -142,8 +142,10 @@ https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac
 
 **We can use `supervised machine Learning` algorithms like linear regression to predict when the battery cells will reach the end of their useful life.**
 
-- We can use the provided data to train a machine learning model to predict the State of Health (SoH) of the battery cells. When the SoH of a battery cell drops below a certain threshold, it indicates that the battery cell is reaching the end of its useful life.
-
+- We can use the provided data to train a machine learning model to predict the State of Health (SoH) of the battery cells and estimate their remaining lifespan.
+- Other that linear regression, we can also use more advanced algorithms like LSTM (Long Short-Term Memory) networks for time series forecasting.
+- LSTM networks are well-suited for sequence prediction tasks and can capture complex patterns in time series data.
+- By training an LSTM model on the battery degradation dataset, we can predict the future SoH values of the battery cells and forecast their remaining lifespan.
 - We can use the SoH predictions to estimate the remaining lifespan of the battery cells and plan for their replacement or maintenance accordingly.
 
 
