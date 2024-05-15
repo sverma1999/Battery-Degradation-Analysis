@@ -147,7 +147,7 @@ https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac
 - LSTM networks are well-suited for sequence prediction tasks and can capture complex patterns in time series data.
 - By training an LSTM model on the battery degradation dataset, we can predict the future SoH values of the battery cells and forecast their remaining lifespan.
 - We can use the SoH predictions to estimate the remaining lifespan of the battery cells and plan for their replacement or maintenance accordingly.
-
+- For DoD, we can use the same approach as SoH to predict the remaining lifespan of the battery cells based on their depth of discharge values.
 
 
 
